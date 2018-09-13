@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    text-decoration: none;
+}
+
+.mdl-layout__content {
+    /* fix show style of footer */
+    flex: 1 0 auto;
+}
+
+.scrool-smooth > * {
+    scroll-behavior: smooth;
+}
+
+.profile-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 250px;
+    background: url(https://avatars1.githubusercontent.com/u/16367752?v=4) top no-repeat darkgrey;
+    background-size: 20em;
+}
+
+section.section--center {
+    max-width: 860px;
+}
+
+.mdl-layout__content section {
+    position: relative;
+    margin: 24px auto 24px auto;
+}
+
+.mdl-card__actions a {
+    color: #3f51b5;
+    margin: 0;
+}
+
+.mdl-card__supporting-text+.mdl-card__actions {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.contact {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact a {
+    font-size: 16px;
+    font-weight: 300;
+}

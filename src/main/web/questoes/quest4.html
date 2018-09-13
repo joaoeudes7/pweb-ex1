@@ -6,68 +6,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@joaoeudes7</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 
 <body>
-    <nav>
-        <a href="#Perfil">Perfil</a> |
-        <a href="#Experiencias">Experiências</a> |
-        <a href="#Formacao">Formação</a> |
-        <a href="#RedesSociais">Redes Sociais</a>
-    </nav>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed mdl-layout__container">
+        <!-- Nav -->
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">@joaoeudes7</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" onclick="goTo('Perfil')">Perfil</a>
+                    <a class="mdl-navigation__link" onclick="goTo('Experiencia')">Experiências</a>
+                    <a class="mdl-navigation__link" onclick="goTo('Formacao')">Formação</a>
+                    <a class="mdl-navigation__link" onclick="goTo('RedesSociais')">Redes Sociais</a>
+                </nav>
+            </div>
+        </header>
+        <!-- Drawer -->
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">João Eudes</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" onclick="goTo('Perfil')">Perfil</a>
+                <a class="mdl-navigation__link" onclick="goTo('Experiencia')">Experiências</a>
+                <a class="mdl-navigation__link" onclick="goTo('Formacao')">Formação</a>
+                <a class="mdl-navigation__link" onclick="goTo('RedesSociais')">Redes Sociais</a>
+            </nav>
+            <div class="mdl-layout__drawer-button">
+                <i class="material-icons">menu</i>
+            </div>
+        </div>
+        <!-- Content -->
+        <main class="mdl-layout__content scroll-smooth">
+            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                <div class="profile-card-wide mdl-card mdl-cell mdl-cell--12-col">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">João Eudes</h2>
+                    </div>
+                    <div id="Experiencias" class="mdl-card__supporting-text">
+                        <article>
+                            <h4>@joaoeudes7</h4>
+                            <p>Olá! Eu tenho 21 anos e sou programador. Apaixonado por um mundo sem limitações! ;)</p>
+                            <p>Love you Linux! </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
 
-    <section id="Perfil">
-        <header>
-            <h2>Perfil</h2>
-        </header>
-        <article>
-            <img src="https://avatars1.githubusercontent.com/u/16367752?v=4" alt="João Eudes" width="200px"/>
-            <h4>João Eudes Lima</h4>
-            <h4>@joaoeudes7</h4>
-            <p>Olá! Eu tenho 21 anos e sou programador. Apaixonado por um mundo sem limitações! ;)</p>
-            <p>Love you Linux! <3</p>
-        </article>
-    </section>
-    <section id="Experiencias">
-        <header>
-            <h1>Experiências</h1>
-        </header>
-        <article>
-            <ul>
-                <li>Programador Frontend: Angular (Typescript), VueJS (ES6), Sass</li>
-                <li>Backend: NodeJs (ES6), GraphQL</li>
-                <li>Desenvolvedor Mobile: Android (Kotlin), Ionic Hybrid (Typescript)</li>
-                <li>Desktop: Qt (C++), .Net (C#)</li>
-                <li>Github</li>
-            </ul>
-        </article>
-    </section>
-    <section id="Formacao">
-        <header>
-            <h1>Formação</h1>
-        </header>
-        <article>
-            <ul>
-                <li>IMD - Redes (2015)</li>
-                <li>UFRN - Sistemas de Informação (2017)</li>
-            </ul>
-        </article>
-    </section>
-    <section id="RedesSociais">
-        <header>
-            <h1>Redes Sociais</h1>
-        </header>
-        <article>
-            <ul>
-                <li><a href="https://github.com/joaoeudes7">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/joaoeudes7">Linkedin</a></li>
-                <li><a href="https://www.instagram.com/joaoeudes7">Instagram</a></li>
-                <li><a href="https://t.me/OSystem">Telegram</a></li>
-                <li><a href="mail://joaoeudes7@gmail.com">Github</a></li>
-            </ul>
-        </article>
-    </section>
-    <footer>2018</footer>
+
+            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                <div class="mdl-card mdl-cell mdl-cell--12-col">
+                    <div class="mdl-card__title">
+                        <header>
+                            <h2 class="mdl-card__title-text">Experiências</h2>
+                        </header>
+                    </div>
+                    <div id="Experiencias" class="mdl-card__supporting-text">
+                        <article>
+                            <p>Programador Frontend: Angular (Typescript), VueJS (ES6), Sass</p>
+                            <p>Backend: NodeJs (ES6), GraphQL</p>
+                            <p>Desenvolvedor Mobile: Android (Kotlin), Ionic Hybrid (Typescript)</p>
+                            <p>Desktop: Qt (C++), .Net (C#)</p>
+                            <p>Github</p>
+                        </article>
+                    </div>
+                    <div class="mdl-card__actions">
+                        <a href="https://github.com/joaoeudes7" class="mdl-button">Veja projetos...</a>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                <div class="mdl-card mdl-cell mdl-cell--12-col">
+                    <div class="mdl-card__title">
+                        <header>
+                            <h2 class="mdl-card__title-text">Formação</h2>
+                        </header>
+                    </div>
+                    <div id="Formacao" class="mdl-card__supporting-text">
+                        <p>IMD - Redes (2015)</p>
+                        <p>UFRN - Sistemas de Informação (2017)</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                <div class="mdl-card mdl-cell mdl-cell--12-col">
+                    <div class="mdl-card__title">
+                        <header>
+                            <h2 class="mdl-card__title-text">Redes Sociais</h2>
+                        </header>
+                    </div>
+                    <div id="RedesSociais" class="mdl-card__supporting-text">
+                        <a href="https://github.com/joaoeudes7">
+                            <button class="mdl-button mdl-js-button mdl-button--fab">
+                                <i class="fa fa-github"></i>
+                            </button>
+                        </a>
+                        <a href="https://www.linkedin.com/in/joaoeudes7">
+                            <button class="mdl-button mdl-js-button mdl-button--fab"><i class="fa fa-linkedin"></i></button>
+                        </a>
+                        <a href="https://www.instagram.com/joaoeudes7">
+                            <button class="mdl-button mdl-js-button mdl-button--fab"><i class="fa fa-instagram"></i></button>
+                        </a>
+                        <a href="https://t.me/OSystem">
+                            <button class="mdl-button mdl-js-button mdl-button--fab"><i class="fa fa-telegram"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <footer class="mdl-mini-footer">
+                <div class="mdl-logo">@joaoeudes7 - 2018</div>
+            </footer>
+        </main>
+    </div>
+    <script type="text/javascript">
+        function goTo(id) {
+            document.getElementById(id).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
 </body>
 
 </html>
