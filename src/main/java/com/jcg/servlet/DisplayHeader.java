@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "Display Header", description = "Only Show Headers", urlPatterns = "/displayHeader")
+@WebServlet(name="Display Header", description="Only Show Headers", urlPatterns="/displayHeader")
 public class DisplayHeader extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
@@ -20,7 +20,7 @@ public class DisplayHeader extends HttpServlet {
         handleRequest(request, response);
     }
 
-    private void handleRequest(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    private void handleRequest(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
         // Set Response Content Type
         response.setContentType("text/html");
@@ -41,7 +41,7 @@ public class DisplayHeader extends HttpServlet {
 
         Enumeration<String> headerNames = request.getHeaderNames();
         while(headerNames.hasMoreElements()) {
-            String paramName = (String)headerNames.nextElement();
+            String paramName = headerNames.nextElement();
             out.print("<tr><td>" + paramName + "</td>\n");
             String paramValue = request.getHeader(paramName);
             out.println("<td> " + paramValue + "</td></tr>\n");
