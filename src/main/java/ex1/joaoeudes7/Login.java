@@ -1,4 +1,4 @@
-package com.jcg.servlet;
+package ex1.joaoeudes7;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet(name="Login", description="Login", urlPatterns="/login")
+@WebServlet(name = "ex1.joaoeudes7.Login", description = "ex1.joaoeudes7.Login of Servlet", urlPatterns = "/login")
 public class Login extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
@@ -17,7 +17,7 @@ public class Login extends HttpServlet {
         if (username.equals("joaoeudes7") && senha.equals("hahaha123")) {
             response.sendRedirect("http://localhost:8080/questoes/quest4.html");
         } else {
-            response.sendRedirect("http://localhost:8080/questoes/quest6.jsp");
+            response.sendRedirect("http://localhost:8080/questoes/quest6.html");
         }
     }
 
