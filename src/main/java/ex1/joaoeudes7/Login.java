@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet(name = "ex1.joaoeudes7.Login", description = "ex1.joaoeudes7.Login of Servlet", urlPatterns = "/login")
+@WebServlet(name = "Login", description = "Login of Servlet", urlPatterns = "/login")
 public class Login extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
@@ -19,7 +19,7 @@ public class Login extends HttpServlet {
         } else {
             response.sendRedirect("http://localhost:8080/questoes/quest6.html");
         }
-    }
+   }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.getWriter().append("Served at: ").append(request.getContextPath());
