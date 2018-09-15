@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ex1.joaoeudes7" />
+      <artifact name="pweb.ex1.joaoeudes7" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67005461-e981-43b8-8adb-f9fdd1000b4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ex1_joaoeudes7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/pweb_ex1_joaoeudes7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pweb.ex1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pweb.ex1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/joaoeudes7/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/joaoeudes7/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -160,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="24" />
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -277,6 +273,12 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="br.ufrn.ceres.bsi.pweb:ex1.joaoeudes7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="war" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="br.ufrn.ceres.bsi.pweb:ex1.joaoeudes7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -317,47 +319,6 @@
               <item name="pweb-ex1" type="b2602c69:ProjectViewProjectNode" />
               <item name="pweb-ex1-v2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pweb-ex1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pweb-ex1-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pweb-ex1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pweb-ex1-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pweb-ex1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pweb-ex1-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pweb-ex1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pweb-ex1-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="joaoeudes7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pweb-ex1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pweb-ex1-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pweb-ex1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pweb-ex1-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="questoes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -371,7 +332,7 @@
     <property name="SearchEverywhereHistoryKey" value="quest6.jsp&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536970015916" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536970551521" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -453,7 +414,7 @@
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ex1.joaoeudes7">
+        <artifact name="pweb.ex1.joaoeudes7">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -517,7 +478,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ex1.joaoeudes7" />
+          <artifact name="pweb.ex1.joaoeudes7" />
         </option>
       </method>
     </configuration>
@@ -536,12 +497,12 @@
       <workItem from="1536795528480" duration="4648000" />
       <workItem from="1536804440614" duration="3016000" />
       <workItem from="1536855982566" duration="10893000" />
-      <workItem from="1536958435231" duration="9535000" />
+      <workItem from="1536958435231" duration="10100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30929000" />
+    <option name="totallyTimeSpent" value="31494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,7 +515,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1036" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49324325" visible="true" weight="0.25987193" />
       <window_info id="Structure" order="1" sideWeight="0.5050676" side_tool="true" weight="0.25773746" />
@@ -724,7 +684,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="24" />
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -765,11 +725,12 @@
               <type id="jpa-descriptors" />
             </show-content>
           </artifact-editor>
-          <last-edited>ex1.joaoeudes7</last-edited>
+          <last-edited>pweb.ex1.joaoeudes7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.34404144" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
